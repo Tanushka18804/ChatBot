@@ -1,0 +1,136 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I do for you?",
+                "Hey! Need any help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you soon! Take care!",
+                "Bye! Feel free to return if you need help."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the forecast",
+                "Is it going to rain today?"
+            ],
+            "responses": [
+                "You can check the weather forecast on your preferred weather service.",
+                "I can provide general weather trends, but checking a weather site will be more accurate."
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Give me something funny"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "What do you call fake spaghetti? An impasta!",
+                "I told my wife she should embrace her mistakes. She gave me a hug."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I need motivation",
+                "Give me an inspiring quote",
+                "How to stay motivated?"
+            ],
+            "responses": [
+                "Believe in yourself! Every great success starts with the decision to try.",
+                "Success is not the key to happiness. Happiness is the key to success.",
+                "You are stronger than you think. Keep pushing forward!"
+            ]
+        },
+        {
+            "tag": "technology",
+            "patterns": [
+                "Tell me about AI",
+                "What is machine learning?",
+                "Explain blockchain"
+            ],
+            "responses": [
+                "Artificial Intelligence (AI) is the simulation of human intelligence in machines.",
+                "Machine learning is a subset of AI that enables systems to learn from data without explicit programming.",
+                "Blockchain is a decentralized digital ledger that records transactions securely and transparently."
+            ]
+        },
+        {
+            "tag": "fitness",
+            "patterns": [
+                "How to stay fit?",
+                "Give me workout tips",
+                "Best exercises for weight loss"
+            ],
+            "responses": [
+                "Regular exercise, balanced diet, and proper rest are key to staying fit.",
+                "For weight loss, try a mix of cardio and strength training.",
+                "Staying active and maintaining a healthy lifestyle leads to better well-being."
+            ]
+        },
+        {
+            "tag": "travel",
+            "patterns": [
+                "Best places to visit?",
+                "Travel tips",
+                "How to plan a trip?"
+            ],
+            "responses": [
+                "Traveling broadens the mind! Consider visiting places rich in culture and nature.",
+                "Always plan ahead, pack light, and explore like a local!",
+                "Research your destination, book accommodations in advance, and have a flexible itinerary."
+            ]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "How to learn programming?",
+                "Best programming languages",
+                "Explain Python"
+            ],
+            "responses": [
+                "Start with an easy-to-learn language like Python or JavaScript.",
+                "Programming helps in automating tasks and building software solutions.",
+                "Python is a versatile programming language known for its readability and ease of use."
+            ]
+        },
+        {
+            "tag": "finance",
+            "patterns": [
+                "Give me finance tips",
+                "How to save money?",
+                "Best investment strategies"
+            ],
+            "responses": [
+                "Budgeting and saving a portion of your income helps in financial stability.",
+                "Invest in diversified assets and plan for the long term.",
+                "Avoid unnecessary expenses and focus on building wealth over time."
+            ]
+        }
+    ]
+}
